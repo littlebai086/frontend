@@ -1,5 +1,5 @@
 # 使用官方Node.js镜像作为基础镜像
-FROM node:latest
+FROM node:16.15.1 as build
 
 WORKDIR /lit-clothing
 

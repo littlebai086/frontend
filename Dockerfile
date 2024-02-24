@@ -3,7 +3,7 @@ FROM node:latest
 
 WORKDIR /lit-clothing
 
-COPY package*.json .
+COPY package*.json ./
 RUN npm install
 COPY . .
 
